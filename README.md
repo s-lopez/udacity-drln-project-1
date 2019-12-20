@@ -4,7 +4,7 @@ This repository contains my solution to the first project in [Udacity's DRL nano
 
 ## The task
 
-![Navigation](https://github.com/SIakovlev/Navigation/blob/master/results/navigation_short.gif)
+<img src=media/live-agent.gif width=60%>
 
 Meet the Bananator! An agent that was trained with a [Deep Q Network (DQN)](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) to collect yellow bananas and avoid blue bananas. The environment is a modified version of [Unity ML-agents' Banana Collector](https://github.com/Unity-Technologies/ml-agents) environment.
 
@@ -31,8 +31,8 @@ Note: To develop in my machine, I used an updated version of Pytorch (`1.3.1`). 
 
 ## How to run
 
-- **Report.ipynb** contains a detailed description of the implementation and allows you to visualize the performance of a trained agent.
-- Running **main.ipynb** trains the agent from scratch
-- The parameters needed to clone the trained agent can be found in  models/. Refer to the report for more details.
-- The agent is defined in dqn_agent.py
-- The actual DQN network is defined in model.py
+- **`Report.ipynb`** contains a detailed description of the implementation and allows you to visualize the performance of a trained agent.
+- Running **`main.ipynb`** trains the agent from scratch
+- The parameters needed to clone the trained agent can be found in `models/`. Refer to the report for more details.
+- The agent is defined in `dqn_agent.py`
+- The actual DQN network is defined in `model.py`
